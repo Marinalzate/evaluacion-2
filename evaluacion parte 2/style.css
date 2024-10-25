@@ -1,0 +1,46 @@
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente de la página */
+    margin: 0; /* Elimina el margen predeterminado */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+}
+
+/* Contenedor de tarjetas */
+.contenedor {
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en múltiples líneas */
+    justify-content: space-around; /* Espaciado entre las tarjetas */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+/* Estilo de cada tarjeta */
+.tarjeta {
+    width: 250px; /* Ancho fijo para cada tarjeta */
+    margin: 15px; /* Espacio entre las tarjetas */
+    border: 1px solid #ccc; /* Bordes de las tarjetas */
+    padding: 15px; /* Espaciado interno de las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: #fff; /* Color de fondo de las tarjetas */
+}
+
+/* Estilo de las imágenes */
+.tarjeta img {
+    width: 100%; /* La imagen ocupa el 100% del ancho de la tarjeta */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* Estilo de los títulos */
+.tarjeta h3 {
+    margin-top: 10px; /* Espacio arriba del título */
+    font-size: 1.2em; /* Tamaño de fuente del título */
+}
+
+/* Estilo de las descripciones */
+.tarjeta p {
+    font-size: 0.9em; /* Tamaño de fuente de la descripción */
+    line-height: 1.4; /* Espaciado entre líneas */
+    color: #555; /* Color de la descripción */
+}
+
